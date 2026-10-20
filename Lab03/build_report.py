@@ -174,9 +174,9 @@ p('DTW13 tái xây dựng baseline Lab 2; DTW39 giữ cùng front-end với HMM3
   'Thời gian gồm đọc WAV, feature và scoring; một lần đo sau warm-up, một thread, phụ thuộc máy. '
   'Chuẩn bị không gồm trích feature train dùng chung; HMM là tổng thời gian fit, DTW là tạo danh sách template.')
 paired=rows('E4_paired_cases')
-diff=[r for r in paired if r['predicted_HMM']!=r['predicted_DTW']]
-p(('Các file HMM/DTW13 khác quyết định: '+', '.join(Path(r['path']).name for r in diff)+'.') if diff else
-  'Không có file HMM và DTW13 khác quyết định trong 10 test sạch; không tạo ra trường hợp một phương pháp thắng phương pháp kia.')
+diff=[r for r in paired if r['predicted_HMM']!=r['predicted_DTW39']]
+p(('Các file HMM39/DTW39 khác quyết định: '+', '.join(Path(r['path']).name for r in diff)+'.') if diff else
+  'Không có file HMM39 và DTW39 khác quyết định trong 10 test sạch; không tạo ra trường hợp một phương pháp thắng phương pháp kia.')
 tbl(['E5 Điều kiện','Accuracy','Giảm điểm %'],[[r['condition'],pct(r['accuracy']),fnum(r['drop_pp'])] for r in robust])
 speed=rows('speed_robustness')
 p('Thay đổi tốc độ nhân tạo bằng time-stretch: '+ '; '.join(f'{r["method"]}, rate {r["rate"]}: {pct(r["accuracy"])}' for r in speed)+'.',size=9)

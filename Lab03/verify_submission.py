@@ -46,6 +46,13 @@ for n in range(1,7):
     p=ROOT/'results/experiment_tables'/f'E{n}.csv'
     assert p.exists() and len(pd.read_csv(p))>0
 checks['experiments_completed']=['E1','E2','E3','E4','E5','E6']
+paired=pd.read_csv(ROOT/'results/experiment_tables/E4_paired_cases.csv')
+dtw39=pd.read_csv(ROOT/'results/experiment_tables/DTW_shared39_predictions.csv')
+assert paired.path.is_unique and set(paired.path)==set(pred.path)==set(dtw39.path)
+paired=paired.set_index('path')
+assert paired.predicted_HMM.equals(pred.set_index('path').predicted.reindex(paired.index).rename('predicted_HMM'))
+assert paired.predicted_DTW39.equals(dtw39.set_index('path').predicted.reindex(paired.index).rename('predicted_DTW39'))
+checks['E4_pairs_use_DTW39']=True
 for label in ['mo','xuong']:
     path=pd.read_csv(ROOT/'results/viterbi_plots'/f'{label}_path.csv')
     assert path.state.iloc[0]==0 and path.state.diff().dropna().isin([0,1]).all()

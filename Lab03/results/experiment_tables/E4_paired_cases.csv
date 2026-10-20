@@ -1,4 +1,4 @@
-﻿path,truth,predicted_HMM,predicted_DTW
+﻿path,truth,predicted_HMM,predicted_DTW39
 test/dong/dong_07.wav,dong,dong,dong
 test/dong/dong_08.wav,dong,dong,dong
 test/dung/dung_07.wav,dung,dung,dung

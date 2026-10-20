@@ -1,11 +1,11 @@
 ﻿config,label,n_states,dimensions,covariance,files,frames,fit_s,iterations,monitor_converged,tolerance_met,stop_reason,last_improvement,min_initial_state_frames,train_score_per_frame,topology_ok,transition_fixed_fallback,warnings
-E2_13,mo,5,13,diag,6,158,0.20284240000000864,12,True,False,decreased,-0.014333506713967381,30,-3.2332394247570213,True,False,"Model is not converging.  Current: -510.8467197889628 is not greater than -510.8323862822488. Delta is -0.014333506713967381
+E2_13,mo,5,13,diag,6,158,0.033257099999900674,12,True,False,decreased,-0.014333506713967381,30,-3.2332394247570213,True,False,"Model is not converging.  Current: -510.8467197889628 is not greater than -510.8323862822488. Delta is -0.014333506713967381
 "
-E2_13,dong,5,13,diag,6,91,0.17602350000015576,7,True,False,decreased,-0.0157543327663916,16,-5.865667146627074,True,False,"Model is not converging.  Current: -533.7759278288311 is not greater than -533.7601734960647. Delta is -0.0157543327663916
+E2_13,dong,5,13,diag,6,91,0.028180900000734255,7,True,False,decreased,-0.0157543327663916,16,-5.865667146627074,True,False,"Model is not converging.  Current: -533.7759278288311 is not greater than -533.7601734960647. Delta is -0.0157543327663916
 "
-E2_13,len,5,13,diag,6,176,0.14647080000008827,5,True,False,decreased,-0.01537410612036183,33,-3.9244961016919464,True,False,"Model is not converging.  Current: -690.7112600391367 is not greater than -690.6958859330164. Delta is -0.01537410612036183
+E2_13,len,5,13,diag,6,176,0.02572409999993397,5,True,False,decreased,-0.01537410612036183,33,-3.9244961016919464,True,False,"Model is not converging.  Current: -690.7112600391367 is not greater than -690.6958859330164. Delta is -0.01537410612036183
 "
-E2_13,xuong,5,13,diag,6,184,0.18471769999996468,9,True,False,decreased,-0.02038059851906837,35,-2.798494259625158,True,False,"Model is not converging.  Current: -514.9157848580655 is not greater than -514.8954042595465. Delta is -0.02038059851906837
+E2_13,xuong,5,13,diag,6,184,0.03154060000088066,9,True,False,decreased,-0.02038059851906837,35,-2.798494259625158,True,False,"Model is not converging.  Current: -514.9157848580655 is not greater than -514.8954042595465. Delta is -0.02038059851906837
 "
-E2_13,dung,5,13,diag,6,192,0.14905620000013187,6,True,False,decreased,-0.011498870468699351,36,-3.064172724750669,True,False,"Model is not converging.  Current: -588.3372488668551 is not greater than -588.3257499963864. Delta is -0.011498870468699351
+E2_13,dung,5,13,diag,6,192,0.027361000000382774,6,True,False,decreased,-0.011498870468699351,36,-3.064172724750669,True,False,"Model is not converging.  Current: -588.3372488668551 is not greater than -588.3257499963864. Delta is -0.011498870468699351
 "

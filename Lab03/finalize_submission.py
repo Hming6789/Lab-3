@@ -5,8 +5,19 @@ import hashlib
 import csv
 import nbformat
 import zipfile
+import os
 
 ROOT=Path(__file__).resolve().parent
+
+def submission_files(root):
+    """Bỏ cache, Git metadata và toàn bộ checkout lồng khỏi gói nộp."""
+    excluded={'.git','runtime_cache','kernel_runtime','report_qa','__pycache__','.ipynb_checkpoints'}
+    files=[]
+    for directory, dirs, names in os.walk(root):
+        base=Path(directory)
+        dirs[:]=sorted(d for d in dirs if d not in excluded and not (base/d/'.git').exists())
+        files.extend(base/name for name in sorted(names) if name not in excluded)
+    return sorted(files)
 def rows(name):
     with (ROOT/'results/experiment_tables'/f'{name}.csv').open(encoding='utf-8-sig',newline='') as f:
         return list(csv.DictReader(f))
@@ -52,7 +63,7 @@ E3: full covariance có chênh lệch train/test rất lớn (52.77 so với −
 for r in comparison:
     text+=f"- {r['method']}: {pct(r['accuracy'])}, chuẩn bị {float(r['preparation_s']):.6f} s, dự đoán {float(r['prediction_ms']):.3f} ms/file; 6 template/train utterance mỗi lớp.\n"
 text+='''
-Không có file sạch mà HMM và DTW13 khác quyết định. Đối chiếu có kiểm soát tốc độ với DTW39 (cùng 39D):
+Không có file sạch mà HMM39 và DTW39 khác quyết định (E4_paired_cases.csv). Đối chiếu có kiểm soát tốc độ với DTW39 (cùng 39D):
 
 '''
 for rate in [.8,1.2]:
@@ -87,8 +98,7 @@ idx=next(i for i,c in enumerate(nb.cells) if c.cell_type=='markdown' and c.sourc
 nb.cells.insert(idx,nbformat.v4.new_markdown_cell(text))
 nbformat.write(nb,ROOT/'Lab03.ipynb')
 
-excluded={'runtime_cache','kernel_runtime','report_qa','__pycache__','.ipynb_checkpoints'}
-files=[p for p in sorted(ROOT.rglob('*')) if p.is_file() and not any(x in excluded for x in p.relative_to(ROOT).parts)]
+files=submission_files(ROOT)
 manifest={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in files
           if p.name!='submission_manifest.json'}
 (ROOT/'submission_manifest.json').write_text(json.dumps(manifest,indent=2,ensure_ascii=False),encoding='utf-8')

@@ -34,11 +34,11 @@ E3: full covariance có chênh lệch train/test rất lớn (52.77 so với −
 
 ### E4 và tốc độ nói
 
-- HMM39: 100%, chuẩn bị 0.940906 s, dự đoán 20.032 ms/file; 6 template/train utterance mỗi lớp.
-- DTW13: 100%, chuẩn bị 0.004724 s, dự đoán 26.557 ms/file; 6 template/train utterance mỗi lớp.
-- DTW39: 100%, chuẩn bị 0.004377 s, dự đoán 25.384 ms/file; 6 template/train utterance mỗi lớp.
+- HMM39: 100%, chuẩn bị 0.153028 s, dự đoán 2.873 ms/file; 6 template/train utterance mỗi lớp.
+- DTW13: 100%, chuẩn bị 0.001045 s, dự đoán 3.570 ms/file; 6 template/train utterance mỗi lớp.
+- DTW39: 100%, chuẩn bị 0.001087 s, dự đoán 4.081 ms/file; 6 template/train utterance mỗi lớp.
 
-Không có file sạch mà HMM và DTW13 khác quyết định. Đối chiếu có kiểm soát tốc độ với DTW39 (cùng 39D):
+Không có file sạch mà HMM39 và DTW39 khác quyết định (E4_paired_cases.csv). Đối chiếu có kiểm soát tốc độ với DTW39 (cùng 39D):
 
 - Rate 0.8: HMM sai 2/10; DTW39 đúng 10/10. Các file HMM sai: dong_07.wav: dong → xuong; dong_08.wav: dong → xuong.
 - Rate 1.2: HMM sai 1/10; DTW39 đúng 10/10. Các file HMM sai: dong_07.wav: dong → xuong.

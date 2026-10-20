@@ -1,9 +1,9 @@
 ﻿config,label,n_states,dimensions,covariance,files,frames,fit_s,iterations,monitor_converged,tolerance_met,stop_reason,last_improvement,min_initial_state_frames,train_score_per_frame,topology_ok,transition_fixed_fallback,warnings
-baseline,mo,5,39,diag,6,158,0.2624187000001257,16,True,False,decreased,-0.0013577241134044016,30,-17.76221751654058,True,False,"Model is not converging.  Current: -2806.4303676126956 is not greater than -2806.429009888582. Delta is -0.0013577241134044016
+baseline,mo,5,39,diag,6,158,0.04233150000072783,16,True,False,decreased,-0.0013577241134044016,30,-17.76221751654058,True,False,"Model is not converging.  Current: -2806.4303676126956 is not greater than -2806.429009888582. Delta is -0.0013577241134044016
 "
-baseline,dong,5,39,diag,6,91,0.15385909999986325,6,True,False,decreased,-0.0010762750411004163,16,-7.868227872551399,True,False,"Model is not converging.  Current: -716.00872165393 is not greater than -716.0076453788889. Delta is -0.0010762750411004163
+baseline,dong,5,39,diag,6,91,0.025060200001462363,6,True,False,decreased,-0.0010762750411004163,16,-7.868227872551399,True,False,"Model is not converging.  Current: -716.00872165393 is not greater than -716.0076453788889. Delta is -0.0010762750411004163
 "
-baseline,len,5,39,diag,6,176,0.19754829999988033,12,True,False,decreased,-0.0138822857352352,33,-21.092718426035226,True,False,"Model is not converging.  Current: -3712.3184429823964 is not greater than -3712.304560696661. Delta is -0.0138822857352352
+baseline,len,5,39,diag,6,176,0.03302119999898423,12,True,False,decreased,-0.0138822857352352,33,-21.092718426035226,True,False,"Model is not converging.  Current: -3712.3184429823964 is not greater than -3712.304560696661. Delta is -0.0138822857352352
 "
-baseline,xuong,5,39,diag,6,184,0.1666674000000512,6,True,True,tolerance,0.0008637998171252548,35,-18.03340285185371,True,False,
-baseline,dung,5,39,diag,6,192,0.1604130000000623,6,True,True,tolerance,1.5311952211050084e-05,36,-19.989809479003586,True,False,
+baseline,xuong,5,39,diag,6,184,0.025666300000011688,6,True,True,tolerance,0.0008637998171252548,35,-18.03340285185371,True,False,
+baseline,dung,5,39,diag,6,192,0.026949000000968226,6,True,True,tolerance,1.5311952211050084e-05,36,-19.989809479003586,True,False,

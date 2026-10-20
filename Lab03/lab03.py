@@ -557,7 +557,7 @@ def experiment_stage(audit, cache, baseline, training, predictions, baseline_tim
         dict(method='DTW39',dimensions=39,accuracy=shared_dtw.correct.mean(),preparation_s=prep39,prediction_ms=shared_dtw.prediction_ms.mean(),train_per_class=6)
     ]), 'E4')
     # So sánh HMM39 với DTW39 chỉ đổi recognizer; DTW13 là baseline MFCC Lab 2.
-    paired = predictions[['path','truth','predicted']].merge(dtw[['path','predicted']],on='path',suffixes=('_HMM','_DTW'))
+    paired = predictions[['path','truth','predicted']].merge(shared_dtw[['path','predicted']],on='path',suffixes=('_HMM','_DTW39'))
     table(paired,'E4_paired_cases')
     speed_rows = []
     for rate in [.8,1.2]:

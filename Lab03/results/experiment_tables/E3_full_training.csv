@@ -1,7 +1,7 @@
 ﻿config,label,n_states,dimensions,covariance,files,frames,fit_s,iterations,monitor_converged,tolerance_met,stop_reason,last_improvement,min_initial_state_frames,train_score_per_frame,topology_ok,transition_fixed_fallback,warnings
-E3_full,mo,5,39,full,6,158,0.22332820000019638,4,True,True,tolerance,4.547473508864641e-12,30,50.93964837712339,True,False,
-E3_full,dong,5,39,full,6,91,0.1931174999999712,4,True,True,tolerance,6.360962652252056e-05,16,64.95745217179483,True,False,"Fitting a model with 4115 free scalar parameters with only 3549 data points will result in a degenerate solution.
+E3_full,mo,5,39,full,6,158,0.04082590000143682,4,True,True,tolerance,4.547473508864641e-12,30,50.93964837712339,True,False,
+E3_full,dong,5,39,full,6,91,0.03415140000106476,4,True,True,tolerance,6.360962652252056e-05,16,64.95745217179483,True,False,"Fitting a model with 4115 free scalar parameters with only 3549 data points will result in a degenerate solution.
 "
-E3_full,len,5,39,full,6,176,0.20331420000002254,3,True,True,tolerance,0.0,33,49.447799193761234,True,False,
-E3_full,xuong,5,39,full,6,184,0.19987200000014127,3,True,False,decreased,-1.8189894035458565e-12,35,52.579738371628174,True,False,
-E3_full,dung,5,39,full,6,192,0.184206500000073,3,True,True,tolerance,1.5485056792385876e-08,36,45.93185326007719,True,False,
+E3_full,len,5,39,full,6,176,0.035356899999896996,3,True,True,tolerance,0.0,33,49.447799193761234,True,False,
+E3_full,xuong,5,39,full,6,184,0.0334549999988667,3,True,False,decreased,-1.8189894035458565e-12,35,52.579738371628174,True,False,
+E3_full,dung,5,39,full,6,192,0.034761599999910686,3,True,True,tolerance,1.5485056792385876e-08,36,45.93185326007719,True,False,
