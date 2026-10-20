@@ -1,0 +1,7 @@
+{
+  "score_per_frame_threshold": -21.827484806351464,
+  "gap_per_frame_threshold": 92.9460614257648,
+  "rule": "reject if top1/frame < score threshold OR gap/frame < gap threshold",
+  "calibration": "Heuristic phân vị 5% trên train in-sample; có thiên lệch lạc quan",
+  "validation": "Chưa có ngoài từ vựng, chưa xác minh unknown; cần validation độc lập + OOV"
+}

@@ -1,0 +1,13 @@
+{
+  "files": 40,
+  "train": 30,
+  "test": 10,
+  "duplicates": [],
+  "fatal_errors": [],
+  "format_repairs_needed": 0,
+  "total_clipping_samples": 0,
+  "duration_min_s": 0.748375,
+  "duration_max_s": 0.989125,
+  "silence_note": "PDF đề xuất 0.2–0.5 s đầu/cuối; xem leading_s/trailing_s đo gần đúng.",
+  "source": "synthetic_tts / eSpeak Vietnamese; chưa xác minh nhãn bằng người nghe"
+}

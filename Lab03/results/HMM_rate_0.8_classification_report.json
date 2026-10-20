@@ -1,0 +1,45 @@
+{
+  "mo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2.0
+  },
+  "dong": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "len": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2.0
+  },
+  "xuong": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 2.0
+  },
+  "dung": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2.0
+  },
+  "accuracy": 0.8,
+  "macro avg": {
+    "precision": 0.7,
+    "recall": 0.8,
+    "f1-score": 0.7333333333333333,
+    "support": 10.0
+  },
+  "weighted avg": {
+    "precision": 0.7,
+    "recall": 0.8,
+    "f1-score": 0.7333333333333333,
+    "support": 10.0
+  }
+}

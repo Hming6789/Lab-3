@@ -1,0 +1,11 @@
+﻿path,truth,predicted_HMM,predicted_DTW
+test/dong/dong_07.wav,dong,dong,dong
+test/dong/dong_08.wav,dong,dong,dong
+test/dung/dung_07.wav,dung,dung,dung
+test/dung/dung_08.wav,dung,dung,dung
+test/len/len_07.wav,len,len,len
+test/len/len_08.wav,len,len,len
+test/mo/mo_07.wav,mo,mo,mo
+test/mo/mo_08.wav,mo,mo,mo
+test/xuong/xuong_07.wav,xuong,xuong,xuong
+test/xuong/xuong_08.wav,xuong,xuong,xuong

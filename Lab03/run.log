@@ -1,0 +1,117 @@
+DATA AUDIT {'files': 40, 'train': 30, 'test': 10, 'duplicates': [], 'fatal_errors': [], 'format_repairs_needed': 0, 'total_clipping_samples': 0, 'duration_min_s': 0.748375, 'duration_max_s': 0.989125, 'silence_note': 'PDF đề xuất 0.2–0.5 s đầu/cuối; xem leading_s/trailing_s đo gần đúng.', 'source': 'synthetic_tts / eSpeak Vietnamese; chưa xác minh nhãn bằng người nghe'}
+A completed                     path  frames  dimensions
+0  test/dong/dong_07.wav      14          39
+1  test/dong/dong_08.wav      18          39
+2  test/dung/dung_07.wav      29          39
+3  test/dung/dung_08.wav      37          39
+4    test/len/len_07.wav      26          39
+B-C completed   config label  n_states  dimensions covariance  files  frames    fit_s  iterations  monitor_converged  tolerance_met stop_reason  last_improvement  min_initial_state_frames  train_score_per_frame  topology_ok  transition_fixed_fallback                                                                                                                         warnings
+baseline    mo         5          39       diag      6     158 0.262672          16               True          False   decreased         -0.001358                        30             -17.762218         True                      False Model is not converging.  Current: -2806.4303676126956 is not greater than -2806.429009888582. Delta is -0.0013577241134044016\n
+baseline  dong         5          39       diag      6      91 0.143155           6               True          False   decreased         -0.001076                        16              -7.868228         True                      False    Model is not converging.  Current: -716.00872165393 is not greater than -716.0076453788889. Delta is -0.0010762750411004163\n
+baseline   len         5          39       diag      6     176 0.201481          12               True          False   decreased         -0.013882                        33             -21.092718         True                      False    Model is not converging.  Current: -3712.3184429823964 is not greater than -3712.304560696661. Delta is -0.0138822857352352\n
+baseline xuong         5          39       diag      6     184 0.156162           6               True           True   tolerance          0.000864                        35             -18.033403         True                      False                                                                                                                                 
+baseline  dung         5          39       diag      6     192 0.153823           6               True           True   tolerance          0.000015                        36             -19.989809         True                      False                                                                                                                                 
+D completed: clean accuracy 1.0
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\vuhoa\miniconda3\Lib\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+E-H / E1-E6 completed
+  config  states  dimensions covariance  accuracy  train_accuracy  fit_and_export_s    fit_s  mean_iterations  tolerance_models  train_score_per_frame  test_true_score_per_frame    status
+    E1_3       3          39       diag       1.0             1.0          1.574285 0.740026              7.6                 1             -29.566667                 -37.238561 completed
+baseline       5          39       diag       1.0             1.0          1.958180 0.917293              9.2                 2             -16.949275                 -29.723263 completed
+    E1_7       7          39       diag       1.0             1.0          1.672736 0.750095              6.4                 0             -10.156976                 -24.995409 completed
+   E2_13       5          13       diag       1.0             1.0          1.678887 0.778736              7.8                 0              -3.777214                  -5.348959 completed
+ E3_full       5          39       full       1.0             1.0          1.983308 0.987646              3.4                 4              52.771298                -561.788745 completed
+method  dimensions  accuracy  preparation_s  prediction_ms  train_per_class
+ HMM39          39       1.0       0.917293       21.50976                6
+ DTW13          13       1.0       0.004572       30.44383                6
+ DTW39          39       1.0       0.004527       28.71226                6
+ condition  accuracy  drop_pp
+     clean       1.0      0.0
+noise_20dB       0.5     50.0
+volume_0.3       1.0      0.0

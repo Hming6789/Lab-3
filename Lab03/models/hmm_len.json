@@ -1,0 +1,81 @@
+{
+  "label": "len",
+  "word": "lên",
+  "training_files": [
+    "train/len/len_01.wav",
+    "train/len/len_02.wav",
+    "train/len/len_03.wav",
+    "train/len/len_04.wav",
+    "train/len/len_05.wav",
+    "train/len/len_06.wav"
+  ],
+  "lengths": [
+    33,
+    30,
+    27,
+    29,
+    26,
+    31
+  ],
+  "startprob": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "transmat": [
+    [
+      0.869565217390305,
+      0.13043478260969496,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.7391304342614923,
+      0.2608695657385077,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.8750000001205646,
+      0.12499999987943548,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.7600124864706126,
+      0.23998751352938746
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "config": {
+    "sr": 16000,
+    "n_mfcc": 13,
+    "n_fft": 512,
+    "win_length": 400,
+    "hop_length": 160,
+    "window": "hamming",
+    "n_mels": 26,
+    "preemphasis": 0.97,
+    "trim_top_db": 30,
+    "cmvn": "utterance",
+    "n_states": 5,
+    "covariance": "diag",
+    "n_iter": 80,
+    "tol": 0.001,
+    "seed": 457
+  }
+}

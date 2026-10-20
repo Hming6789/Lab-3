@@ -1,0 +1,11 @@
+﻿config,label,n_states,dimensions,covariance,files,frames,fit_s,iterations,monitor_converged,tolerance_met,stop_reason,last_improvement,min_initial_state_frames,train_score_per_frame,topology_ok,transition_fixed_fallback,warnings
+E1_7,mo,7,39,diag,6,158,0.16544210000006387,7,True,False,decreased,-6.116868053140934e-05,20,-11.904201363201372,True,False,"Model is not converging.  Current: -1880.863815385826 is not greater than -1880.8637542171455. Delta is -6.116868053140934e-05
+"
+E1_7,dong,7,39,diag,6,91,0.13334759999997914,3,True,False,decreased,-0.011847669694361684,11,-2.9016792321487115,True,False,"Model is not converging.  Current: -264.0604851835278 is not greater than -264.04863751383346. Delta is -0.011847669694361684
+"
+E1_7,len,7,39,diag,6,176,0.16331629999990582,7,True,False,decreased,-2.184287950512953e-07,22,-14.202895348982297,True,False,"Model is not converging.  Current: -2499.709581420884 is not greater than -2499.7095812024554. Delta is -2.184287950512953e-07
+"
+E1_7,xuong,7,39,diag,6,184,0.1605343000001085,6,True,False,decreased,-0.0004668159851917153,23,-10.127610114808354,True,False,"Model is not converging.  Current: -1863.4800830742527 is not greater than -1863.4796162582675. Delta is -0.0004668159851917153
+"
+E1_7,dung,7,39,diag,6,192,0.19062499999995453,9,True,False,decreased,-0.0035516389775693824,25,-11.648494976317425,True,False,"Model is not converging.  Current: -2236.511035452952 is not greater than -2236.5074838139744. Delta is -0.0035516389775693824
+"

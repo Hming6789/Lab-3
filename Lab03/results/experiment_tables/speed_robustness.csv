@@ -1,0 +1,5 @@
+﻿rate,method,accuracy
+0.8,HMM39,0.8
+0.8,DTW39,1.0
+1.2,HMM39,0.9
+1.2,DTW39,1.0

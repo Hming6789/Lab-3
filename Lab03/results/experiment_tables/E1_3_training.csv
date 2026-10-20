@@ -1,0 +1,9 @@
+﻿config,label,n_states,dimensions,covariance,files,frames,fit_s,iterations,monitor_converged,tolerance_met,stop_reason,last_improvement,min_initial_state_frames,train_score_per_frame,topology_ok,transition_fixed_fallback,warnings
+E1_3,mo,3,39,diag,6,158,0.1898099000000002,9,True,True,tolerance,3.637978807091713e-12,51,-29.63918241342761,True,False,
+E1_3,dong,3,39,diag,6,91,0.13322160000006988,4,True,False,decreased,-3.930722414224874e-08,28,-16.496359677211906,True,False,"Model is not converging.  Current: -1501.1687306262836 is not greater than -1501.1687305869764. Delta is -3.930722414224874e-08
+"
+E1_3,len,3,39,diag,6,176,0.17019520000008015,8,True,False,decreased,-0.0002797394672597875,57,-32.519015176326064,True,False,"Model is not converging.  Current: -5723.3466624394305 is not greater than -5723.346382699963. Delta is -0.0002797394672597875
+"
+E1_3,xuong,3,39,diag,6,184,0.17672029999994265,10,True,False,decreased,-0.0009571240125296754,60,-34.63670393583225,True,False,"Model is not converging.  Current: -6373.153533983648 is not greater than -6373.152576859636. Delta is -0.0009571240125296754
+"
+E1_3,dung,3,39,diag,6,192,0.15360720000012407,7,True,False,decreased,-4.547473508864641e-12,63,-34.54207429324163,True,False,

@@ -1,0 +1,81 @@
+{
+  "label": "dung",
+  "word": "dừng",
+  "training_files": [
+    "train/dung/dung_01.wav",
+    "train/dung/dung_02.wav",
+    "train/dung/dung_03.wav",
+    "train/dung/dung_04.wav",
+    "train/dung/dung_05.wav",
+    "train/dung/dung_06.wav"
+  ],
+  "lengths": [
+    36,
+    33,
+    30,
+    31,
+    28,
+    34
+  ],
+  "startprob": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "transmat": [
+    [
+      0.8285714034606864,
+      0.17142859653931367,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.8571284393669837,
+      0.1428715606330164,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.8636495137889462,
+      0.13635048621105386,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.8536585365853675,
+      0.14634146341463253
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "config": {
+    "sr": 16000,
+    "n_mfcc": 13,
+    "n_fft": 512,
+    "win_length": 400,
+    "hop_length": 160,
+    "window": "hamming",
+    "n_mels": 26,
+    "preemphasis": 0.97,
+    "trim_top_db": 30,
+    "cmvn": "utterance",
+    "n_states": 5,
+    "covariance": "diag",
+    "n_iter": 80,
+    "tol": 0.001,
+    "seed": 457
+  }
+}

@@ -1,0 +1,3 @@
+﻿config,states,dimensions,covariance,accuracy,train_accuracy,fit_and_export_s,fit_s,mean_iterations,tolerance_models,train_score_per_frame,test_true_score_per_frame,status
+baseline,5,39,diag,1.0,1.0,1.9954250000000684,0.9409064999999828,9.2,2,-16.9492752291969,-29.72326276893371,completed
+E2_13,5,13,diag,1.0,1.0,1.765094500000032,0.8591106000003492,7.8,0,-3.777213931490374,-5.348958880418428,completed

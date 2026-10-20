@@ -1,0 +1,15 @@
+{
+  "corpus_source": "Tự xây dựng, không có context âm thanh thực",
+  "smoothing_k": 0.5,
+  "vocabulary": [
+    "mo",
+    "dong",
+    "len",
+    "xuong",
+    "dung",
+    "</s>"
+  ],
+  "close_criterion": "gap/frame < 0.5; chốt trước đánh giá",
+  "close_test_files": [],
+  "lexicon_status": "minh họa WW_*; chờ inventory giảng viên"
+}

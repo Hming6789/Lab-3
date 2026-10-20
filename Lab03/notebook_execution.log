@@ -1,0 +1,16 @@
+Starting Conda Jupyter kernel
+Waiting for kernel ready
+Cell 2 / execution 1: OK
+Cell 4 / execution 2: OK
+Cell 6 / execution 3: OK
+Cell 8 / execution 4: OK
+Cell 10 / execution 5: OK
+Cell 13 / execution 6: OK
+Cell 15 / execution 7: OK
+NOTEBOOK ALL CELLS PASSED
+Exception ignored in: <function KernelClient.__del__ at 0x0000023D8F42FBA0>
+Traceback (most recent call last):
+  File "C:\Users\vuhoa\miniconda3\Lib\site-packages\jupyter_client\client.py", line 120, in __del__
+  File "C:\Users\vuhoa\miniconda3\Lib\site-packages\traitlets\traitlets.py", line 687, in __get__
+  File "C:\Users\vuhoa\miniconda3\Lib\site-packages\traitlets\traitlets.py", line 666, in get
+TypeError: 'NoneType' object is not callable

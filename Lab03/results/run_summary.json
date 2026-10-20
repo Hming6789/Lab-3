@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "clean_accuracy": 1.0,
+  "clean_correct": 10,
+  "test_files": 10,
+  "final_configuration": "Preset PDF: 5 states, 39D, diag; NOT chosen on test",
+  "dataset": "eSpeak Vietnamese TTS only",
+  "speaker_mismatch": "Chưa thực hiện",
+  "lexicon": "Illustrative WW units; instructor phone inventory unavailable",
+  "lm_context": "Hypothetical only; no recorded previous word",
+  "failed_experiments": []
+}

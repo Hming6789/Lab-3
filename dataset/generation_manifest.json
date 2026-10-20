@@ -1,0 +1,23 @@
+{
+  "dataset_name": "Lab03 Vietnamese Commands",
+  "type": "synthetic_tts",
+  "note": "ALL 40 RECORDINGS ARE SYNTHESIZED, NOT HUMAN RECORDINGS.",
+  "generator": "espeak",
+  "speech_model": "eSpeak Vietnamese",
+  "naturalness_warning": "Offline eSpeak sounds robotic and needs listening validation.",
+  "word_map": {
+    "mo": "mở",
+    "dong": "đóng",
+    "len": "lên",
+    "xuong": "xuống",
+    "dung": "dừng"
+  },
+  "files": 40,
+  "train": 30,
+  "test": 10,
+  "sample_rate_hz": 16000,
+  "channels": 1,
+  "sample_format": "signed PCM 16-bit",
+  "independent_samples": true,
+  "evaluation_warning": "Synthetic-only train/test is not a measure of accuracy on real human speech."
+}

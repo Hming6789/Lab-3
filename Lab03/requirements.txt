@@ -1,0 +1,16 @@
+# Lần chạy bàn giao sử dụng các phiên bản đã có, KHÔNG cài lại Conda base.
+numpy==2.4.2
+scipy==1.17.1
+matplotlib==3.10.8
+librosa==1.0.0
+soundfile==0.14.0
+scikit-learn==1.7.1
+hmmlearn==0.3.3
+pandas==2.3.3
+joblib==1.5.3
+ipykernel==7.2.0
+jupyter_client==8.8.0
+nbformat==5.10.4
+threadpoolctl>=3.0
+# Metapackage cần khi dựng môi trường đầy đủ/browser; không tự cài vào base.
+jupyter>=1.0

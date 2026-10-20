@@ -1,0 +1,4 @@
+﻿condition,accuracy,drop_pp
+clean,1.0,0.0
+noise_20dB,0.5,50.0
+volume_0.3,1.0,0.0

@@ -1,0 +1,8 @@
+# MINH HỌA định dạng; chưa có phone inventory của giảng viên.
+# Các token WW_* chỉ là đơn vị toàn từ giả lập, KHÔNG phải phoneme.
+# Cần giảng viên xác nhận/thay bằng inventory trước triển khai phone HMM.
+mở WW_MO
+đóng WW_DONG
+lên WW_LEN
+xuống WW_XUONG
+dừng WW_DUNG

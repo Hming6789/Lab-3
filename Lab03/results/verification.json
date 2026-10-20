@@ -1,0 +1,21 @@
+{
+  "notebook_sequential_cells": 7,
+  "notebook_images": 9,
+  "audio_files": 40,
+  "cross_split_duplicates": 0,
+  "saved_models_and_50_scores": true,
+  "clean_accuracy": 1.0,
+  "experiments_completed": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6"
+  ],
+  "viterbi_paths": 2,
+  "bigram_normalized": true,
+  "lexicon_parser": true,
+  "original_wavs_unchanged": true,
+  "report_exists": true
+}

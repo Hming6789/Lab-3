@@ -1,0 +1,36 @@
+{
+  "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "C:\\Users\\vuhoa\\miniconda3\\python.exe",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8",
+    "librosa": "1.0.0",
+    "soundfile": "0.14.0",
+    "scikit-learn": "1.7.1",
+    "hmmlearn": "0.3.3",
+    "pandas": "2.3.3",
+    "joblib": "1.5.3",
+    "jupyter": "metapackage chưa cài; dùng ipykernel trong VS Code",
+    "ipykernel": "7.2.0",
+    "jupyter_client": "8.8.0"
+  },
+  "config": {
+    "sr": 16000,
+    "n_mfcc": 13,
+    "n_fft": 512,
+    "win_length": 400,
+    "hop_length": 160,
+    "window": "hamming",
+    "n_mels": 26,
+    "preemphasis": 0.97,
+    "trim_top_db": 30,
+    "cmvn": "utterance",
+    "n_states": 5,
+    "covariance": "diag",
+    "n_iter": 80,
+    "tol": 0.001,
+    "seed": 457
+  }
+}

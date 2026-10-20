@@ -1,0 +1,81 @@
+{
+  "label": "xuong",
+  "word": "xuống",
+  "training_files": [
+    "train/xuong/xuong_01.wav",
+    "train/xuong/xuong_02.wav",
+    "train/xuong/xuong_03.wav",
+    "train/xuong/xuong_04.wav",
+    "train/xuong/xuong_05.wav",
+    "train/xuong/xuong_06.wav"
+  ],
+  "lengths": [
+    34,
+    31,
+    30,
+    30,
+    27,
+    32
+  ],
+  "startprob": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "transmat": [
+    [
+      0.8333213998216719,
+      0.16667860017832806,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.8536155139111298,
+      0.14638448608887022,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.8334010254170016,
+      0.16659897458299855,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.8536585365839897,
+      0.14634146341601031
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "config": {
+    "sr": 16000,
+    "n_mfcc": 13,
+    "n_fft": 512,
+    "win_length": 400,
+    "hop_length": 160,
+    "window": "hamming",
+    "n_mels": 26,
+    "preemphasis": 0.97,
+    "trim_top_db": 30,
+    "cmvn": "utterance",
+    "n_states": 5,
+    "covariance": "diag",
+    "n_iter": 80,
+    "tol": 0.001,
+    "seed": 457
+  }
+}
